@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 8200000}
   - component: {fileID: 39679949}
+  - component: {fileID: 1803141067}
   m_Layer: 0
   m_Name: FPSController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -304,8 +305,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 3733381287251324579, guid: c6a1405f8d0f85e4894e43de3af5f925, type: 3}
   bulletSpawn: {fileID: 3320510152612580701}
-  fireRate: 0.5
+  fireRate: 1
   nextFire: 0
+--- !u!65 &1803141067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2465487, y: 1.9072115, z: 1}
+  m_Center: {x: -0.03742978, y: 0.036671996, z: 0}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,7 +528,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56186660795158173}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.355, z: 0.885}
+  m_LocalPosition: {x: 0, y: 0.355, z: 0.955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1262189613}
