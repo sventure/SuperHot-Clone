@@ -7,7 +7,7 @@ public class timeManager : MonoBehaviour
     public float slowdownFactor = 0.05f;
     public float slowdownLength = 2f;
 
-    [SerializeField] bool isMoving = false;
+    //[SerializeField] bool isMoving = false;
 
     // Update is called once per frame
     void Update()
